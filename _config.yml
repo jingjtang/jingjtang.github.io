@@ -29,5 +29,7 @@ google_analytics:
 # Used for Sitemap.xml and your RSS feed
 url: "http://jingjtang.github.io"
 
+baseurl: ""
+
 
 theme: jekyll-theme-slate
