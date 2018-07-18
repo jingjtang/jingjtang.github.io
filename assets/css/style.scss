@@ -2,3 +2,73 @@
 ---
 
 @import "jekyll-theme-slate";
+
+html {
+  font-size: 100%;
+}
+
+body {
+    padding-top: 48px;
+    font-size:16px;word-spacing:1px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:MuseoSans,Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode","Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei",Verdana,sans-serif;
+    color:#000000;
+    background-color:#ffffff;
+}
+
+header {
+  background-image: url("/images/sola.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+
+	/*background-color: rgb(185, 34, 31);
+	color: #fff;
+	display: inline-block;
+	padding: 12px;*/
+
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 28px;
+    margin: 0 0 128px 0;
+    color: #ffffff;
+    padding: 12px;
+	/*background-color: rgb(185, 34, 31);
+
+	display: inline-block;
+	padding: 12px;*/
+
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 48px;
+    margin: 0 0 24px 0;
+	font-weight: bold;
+}
+
+
+#index a:link {color: #12C}		/* 未访问的链接 */
+#index a:visited {color: #609}	/* 已访问的链接 */
+#index a:hover {color: #336;text-decoration: underline;}	/* 鼠标移动到链接上 */
+#index a:active {color: #dd4b39}	/* 选定的链接 */
+
+
+/* navbar */
+nav{
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+
+	border-radius: 0;
+}
+.navbar-nav li{
+	width: 95px;
+	text-align: center;
+}
