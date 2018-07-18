@@ -32,6 +32,39 @@
       </div>
       <!-- /.container -->
     </nav>
+    
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-md-8">
+          {{ content }}
+        </div>
+
+	 <div id="top" data-toggle="tooltip" data-placement="left" title="Back to top">
+	      <a href="javascript:;">
+		<div class="arrow"></div>
+		<div class="stick"></div>
+	      </a>
+	    </div>
+
+        <!-- Blog Sidebar Widgets Column -->
+        <div class="col-md-4">
+          <!-- Blog Search Well -->  
+	
+            {% include search.html %}
+          <!-- Blog Categories Well -->
+              {% include categories.html %} 
+         
+              {% include hot.html %} 
+       
+            {% include links.html %} 
+
+          <!-- Side Widget Well -->
+           
+        </div>
+      </div>
+
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
