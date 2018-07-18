@@ -1,5 +1,33 @@
-title: Slate theme
-description: Slate is a theme for GitHub Pages.
-show_downloads: true
+#
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the header)
+name: Jingjing Tang's Website
+
+# Short bio or description (displayed in the header)
+description: Graduate Student in Data Science
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://jingjtang.github.io/images/sola.jpg
+
+
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: jatangne@gmail.com
+  github: jingjtang
+  linkedin: jingjtang
+  pinterest:
+
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
+
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url: "http://jingjtang.github.io"
+
+
 theme: jekyll-theme-slate
