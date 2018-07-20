@@ -18,8 +18,7 @@ footer-links:
   dribbble:
   email: jatangne@gmail.com
   github: jingjtang
-  linkedin: jingjtang
-  pinterest:
+  linkedin: jingjingtang
 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
@@ -47,10 +46,12 @@ kramdown:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-
 
 theme: jekyll-theme-slate
+
+
+
+config:
+  js_dir:
+  img_dir:
+  css_dir:
